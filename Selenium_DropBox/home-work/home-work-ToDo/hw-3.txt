@@ -1,0 +1,18 @@
+Home Work:3   due on Thursday
+
+1) Start with CodeLab. Target is 350 problems By the end of this week.
+
+2)Write an application that will have few Interface and few Abstract class. 
+Then implements those Interfaces and extends those Abstract class into a Concrete class.
+Then another class with main method to execute it.Demonstrate all the OOP features.
+You must have all the keywords[access specifer, static,final,this operator,super] used throught the application.
+Use exception handling and Java API like [Scanner,String] as many as possible.
+Use different kind of loops.
+
+3)Finish up raeding the core java book.
+
+4)New topics is coming next week.Prepare for that( git,github.com)
+
+5)Keep practing Intellij.
+
+6) Join mentoring sessions.

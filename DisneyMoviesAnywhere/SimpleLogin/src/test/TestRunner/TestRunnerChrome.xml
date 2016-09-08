@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChaseMortgage Calculator">
+
+    <parameter name="useSauceLab" value="false"/>
+    <parameter name="userName" value="sharif314"/>
+    <parameter name="key" value="2059df80-124c-439b-a71e-c46894740426"/>
+
+    <parameter name="appUrl" value="https://www.facebook.com/"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="51.0.2704.103"/>
+
+    <test name="Home Page">
+        <classes>
+            <class name="FacebookLogin"/>
+        </classes>
+
+    </test>
+
+
+
+</suite>

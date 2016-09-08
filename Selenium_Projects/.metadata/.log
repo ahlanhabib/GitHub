@@ -1,0 +1,1087 @@
+!SESSION 2016-08-21 10:20:09.438 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-21 10:20:18.584
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-08-21 10:20:29.389
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Read timed out. ; version: 2.0.1.v20160605-1811
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+!SESSION 2016-08-21 15:20:06.955 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-21 15:20:21.649
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-08-21 15:20:33.032
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Read timed out. ; version: 2.0.1.v20160605-1811
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-21 19:52:14.386
+!MESSAGE 
+!STACK 0
+org.apache.jasper.JasperException: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.jsp.jasper.JspServlet.service(JspServlet.java:155)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceRuntimeImpl$LegacyServlet.service(HttpServiceRuntimeImpl.java:1221)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:132)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.service(ProxyServlet.java:100)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:310)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:845)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:224)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:524)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.server.ResponseWriter.isOpen(ResponseWriter.java:133)
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:202)
+	at java.io.PrintWriter.write(PrintWriter.java:426)
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176)
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471)
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:453)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:403)
+	... 34 more
+Caused by: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:197)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:419)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:313)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141)
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:733)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224)
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:521)
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:692)
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:746)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:179)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:163)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:415)
+	at java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:167)
+	at org.eclipse.jetty.server.Utf8HttpWriter.write(Utf8HttpWriter.java:183)
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:203)
+	at java.io.PrintWriter.write(PrintWriter.java:426)
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176)
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471)
+	at org.apache.jasper.runtime.JspWriterImpl.print(JspWriterImpl.java:596)
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:477)
+	... 37 more
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:177)
+	... 59 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-21 19:52:14.405
+!MESSAGE 
+!STACK 0
+org.apache.jasper.JasperException: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.jsp.jasper.JspServlet.service(JspServlet.java:155)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceRuntimeImpl$LegacyServlet.service(HttpServiceRuntimeImpl.java:1221)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:132)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.service(ProxyServlet.java:100)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:310)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:845)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:224)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:524)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.server.ResponseWriter.isOpen(ResponseWriter.java:133)
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:202)
+	at java.io.PrintWriter.write(PrintWriter.java:426)
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176)
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471)
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:453)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:403)
+	... 34 more
+Caused by: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:197)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:419)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:313)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141)
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:733)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224)
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:521)
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:692)
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:746)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:179)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:163)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:415)
+	at java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:167)
+	at org.eclipse.jetty.server.Utf8HttpWriter.write(Utf8HttpWriter.java:183)
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:203)
+	at java.io.PrintWriter.write(PrintWriter.java:426)
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176)
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471)
+	at org.apache.jasper.runtime.JspWriterImpl.print(JspWriterImpl.java:596)
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:477)
+	... 37 more
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:177)
+	... 59 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-21 19:52:14.423
+!MESSAGE //127.0.0.1:57548/help/advanced/searchView.jsp?searchWord=shortcuts&maxHits=500
+!STACK 0
+org.apache.jasper.JasperException: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.jsp.jasper.JspServlet.service(JspServlet.java:155)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceRuntimeImpl$LegacyServlet.service(HttpServiceRuntimeImpl.java:1221)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:132)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.service(ProxyServlet.java:100)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:310)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:845)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:224)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:524)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.server.ResponseWriter.isOpen(ResponseWriter.java:133)
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:202)
+	at java.io.PrintWriter.write(PrintWriter.java:426)
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176)
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471)
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:453)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:403)
+	... 34 more
+Caused by: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:197)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:419)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:313)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141)
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:733)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224)
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:521)
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:692)
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:746)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:179)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:163)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:415)
+	at java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:167)
+	at org.eclipse.jetty.server.Utf8HttpWriter.write(Utf8HttpWriter.java:183)
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:203)
+	at java.io.PrintWriter.write(PrintWriter.java:426)
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176)
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471)
+	at org.apache.jasper.runtime.JspWriterImpl.print(JspWriterImpl.java:596)
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:477)
+	... 37 more
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:177)
+	... 59 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-21 19:52:14.443
+!MESSAGE //127.0.0.1:57548/help/advanced/searchView.jsp?searchWord=shortcuts&maxHits=500
+!STACK 0
+org.apache.jasper.JasperException: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.jsp.jasper.JspServlet.service(JspServlet.java:155)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceRuntimeImpl$LegacyServlet.service(HttpServiceRuntimeImpl.java:1221)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:132)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.service(ProxyServlet.java:100)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:310)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:845)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:224)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:524)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.server.ResponseWriter.isOpen(ResponseWriter.java:133)
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:202)
+	at java.io.PrintWriter.write(PrintWriter.java:426)
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176)
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471)
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:453)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:403)
+	... 34 more
+Caused by: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:197)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:419)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:313)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141)
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:733)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224)
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:521)
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:692)
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:746)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:179)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:163)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:415)
+	at java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:167)
+	at org.eclipse.jetty.server.Utf8HttpWriter.write(Utf8HttpWriter.java:183)
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:203)
+	at java.io.PrintWriter.write(PrintWriter.java:426)
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176)
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458)
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471)
+	at org.apache.jasper.runtime.JspWriterImpl.print(JspWriterImpl.java:596)
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:477)
+	... 37 more
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:177)
+	... 59 more
+!SESSION 2016-08-23 17:31:26.782 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-23 17:31:39.906
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-08-24 09:46:01.416 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-24 09:46:13.660
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-08-24 14:01:32.770 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-24 14:01:43.678
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-08-25 12:02:03.043 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-25 12:02:15.387
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-08-25 16:39:09.798 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-25 16:39:21.413
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 16:56:43.799
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62178 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1697612758\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 62178 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1697612758\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 16:57:35.511
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62391 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-354530606\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 62391 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-354530606\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 16:58:59.853
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62650 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-44297110\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 62650 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-44297110\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 17:00:40.205
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62810 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-1730837074\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 62810 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-1730837074\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 17:11:55.011
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63190 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1361844628\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 63190 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1361844628\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 17:12:27.438
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63382 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--772748090\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 63382 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--772748090\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 17:14:40.815
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63573 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1387760722\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 63573 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1387760722\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 17:15:22.243
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63754 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1259377183\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 63754 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1259377183\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 17:17:18.383
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64131 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-702593732\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 64131 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-702593732\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 18:26:14.116
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64861 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1632364741\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 64861 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1632364741\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 18:27:18.022
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65077 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1573974853\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 65077 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--1573974853\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 18:28:10.042
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65282 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-168445646\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 65282 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-168445646\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-08-25 18:28:54.779
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65499 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-1375479566\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 65499 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse-1375479566\testng-customsuite.xml
+!SESSION 2016-08-25 20:16:14.238 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-25 20:16:22.873
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:18:37.385
+!MESSAGE The POM for org.testng:testng:jar:6.9.12 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:18:39.666
+!MESSAGE The POM for org.testng:testng:jar:6.9.12 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:18:39.736
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:18:39.748
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 150 2016-08-25 20:20:01.486
+!MESSAGE The archive: C:/Users/CreativeBangla/.m2/repository/org/testng/testng/6.9.12/testng-6.9.12.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:29:36.144
+!MESSAGE The POM for org.testng:testng:jar:6.9.12 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:29:36.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:29:36.456
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:32:15.696
+!MESSAGE The POM for org.testng:testng:jar:6.9.12 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:38:16.259
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:38:16.271
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:38:24.459
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:38:24.471
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 150 2016-08-25 20:38:26.229
+!MESSAGE The archive: C:/Users/CreativeBangla/.m2/repository/org/testng/testng/6.9.12/testng-6.9.12.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:39:11.130
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:39:11.145
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 150 2016-08-25 20:39:50.237
+!MESSAGE The archive: C:/Users/CreativeBangla/.m2/repository/org/testng/testng/6.9.12/testng-6.9.12.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2016-08-25 20:39:55.027
+!MESSAGE The archive: C:/Users/CreativeBangla/.m2/repository/org/testng/testng/6.9.12/testng-6.9.12.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:45:35.295
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:45:35.320
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 150 2016-08-25 20:45:38.503
+!MESSAGE The archive: C:/Users/CreativeBangla/.m2/repository/org/testng/testng/6.9.12/testng-6.9.12.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-08-25 20:45:50.522
+!MESSAGE Launch configuration App references non-existing project my-app.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project my-app.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2016-08-25 20:45:50.523
+!MESSAGE Launch configuration App references non-existing project my-app.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-08-25 20:45:50.542
+!MESSAGE Launch configuration App references non-existing project my-app.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project my-app.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2016-08-25 20:45:50.542
+!MESSAGE Launch configuration App references non-existing project my-app.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-08-25 20:45:50.571
+!MESSAGE Launch configuration App references non-existing project my-app.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project my-app.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2016-08-25 20:45:50.571
+!MESSAGE Launch configuration App references non-existing project my-app.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-08-25 20:45:50.592
+!MESSAGE Launch configuration AppTest references non-existing project my-app.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppTest references non-existing project my-app.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2016-08-25 20:45:50.592
+!MESSAGE Launch configuration AppTest references non-existing project my-app.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-08-25 20:45:50.612
+!MESSAGE Launch configuration AppTest references non-existing project my-app.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppTest references non-existing project my-app.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2016-08-25 20:45:50.612
+!MESSAGE Launch configuration AppTest references non-existing project my-app.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-08-25 20:45:50.639
+!MESSAGE Launch configuration AppTest references non-existing project my-app.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppTest references non-existing project my-app.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2016-08-25 20:45:50.639
+!MESSAGE Launch configuration AppTest references non-existing project my-app.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:46:50.711
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:46:50.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:54:16.182
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:54:16.199
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:54:16.550
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:54:16.567
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:54:43.659
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:54:43.674
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:54:43.909
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:54:43.925
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:55:10.684
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:55:10.699
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:55:10.913
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:55:10.930
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:57:26.377
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:57:26.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:57:38.415
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:57:38.432
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:57:53.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:57:53.632
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:57:53.874
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-25 20:57:53.890
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-08-26 00:47:31.805 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-26 00:47:49.010
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2016-08-26 00:48:03.357
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] NYTimes.java [in TestNG [in src [in Selenium_Project_1]]]
+  package TestNG
+  import org.testng.annotations.Test
+  import com.google.inject.Key
+  import org.testng.annotations.BeforeMethod
+  import java.util.List
+  import java.util.concurrent.TimeUnit
+  import org.openqa.selenium.By
+  import org.openqa.selenium.By.ByClassName
+  import org.openqa.selenium.Keys
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import org.openqa.selenium.firefox.FirefoxDriver
+  import org.openqa.selenium.remote.server.handler.SendKeys
+  import org.testng.annotations.AfterMethod
+  class NYTimes
+    WebDriver driver
+    void beforeMethod()
+    void f()
+    void afterMethod()
+
+!ENTRY org.testng.eclipse 1 0 2016-08-26 00:48:03.793
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51442 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--2072300105\testng-customsuite.xml
+java -ea -classpath C:\Users\CreativeBangla\.p2\pool\plugins\org.testng.eclipse_6.9.12.201607091356\lib\testng-remote.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\bin:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\cglib-nodep-3.2.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\client-combined-3.0.0-beta2-nodeps.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-codec-1.10.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-exec-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\commons-logging-1.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\gson-2.3.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\guava-19.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-core-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\hamcrest-library-1.3.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpclient-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpcore-4.4.4.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\httpmime-4.5.2.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\jna-platform-4.1.0.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\junit-4.12.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\netty-3.5.7.Final.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\phantomjsdriver-1.2.1.jar:A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\lib\selenium-server-standalone-3.0.0-beta2.jar org.testng.remote.RemoteTestNG -serport 51442 -protocol json -d A:\New folder\Selenium\Selenium_Projects\Selenium_Project_1\test-output C:\Users\CREATI~1\AppData\Local\Temp\testng-eclipse--2072300105\testng-customsuite.xml
+!SESSION 2016-08-26 09:49:57.236 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-26 09:50:05.903
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-08-26 14:34:52.405 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-26 14:35:04.472
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-08-26 15:24:14.606 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-26 15:24:29.699
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CreativeBangla'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 15:24:55.701
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 15:24:55.729
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:25:09.406
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:25:09.472
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:25:09.935
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:25:09.969
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:25:50.363
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:25:50.375
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:25:50.738
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:25:50.870
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:26:22.217
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:26:22.227
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:26:43.497
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:26:43.511
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:26:43.838
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:26:43.856
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:27:05.522
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:27:05.535
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:27:05.933
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 16:27:06.010
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

@@ -1,0 +1,14 @@
+Home Work: 1  due on Wednesday 12 pm.
+
+1) Prepare for the Quiz-2.
+
+2) Continu reading Java book[core java upto chapter 6] and 
+   Head First java as much as you can to cover the topics as we go over 
+   in class.
+
+3) Write an application that will have 5 different class and 
+   at least 5 different methods and variable on each class.
+   Each class should have return and non-return type method.
+   Each class should have multiple constructor.
+   Make some of the methods and variable static and non-static.
+   You need to have at least one main method for an application.

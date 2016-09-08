@@ -1,0 +1,109 @@
+07-17-2016
+
+Java is strongly typed language.
+Java is case sensetive.
+
+We need an entry pont for an application in java.
+main method is the entry point of an application.
+
+Java is all about class and object.
+ what is class?
+Class is a blueprint of an object.
+ What is an Object?
+Object is an instance of a class.
+
+
+
+Variable:
+
+There are two different types of variable in java.
+1) primitive [int,char,boolean,float,double..]
+2) reference [whiteHouse,office]
+
+
+
+
+
+
+
+
+class:
+
+[access specifer][class][class name] {
+
+//class body start
+
+
+}//close class body
+
+access specife: public, private, protected
+
+variable:
+[access specifer][primitive type][variable name] = value;
+
+method:
+
+[access specifer][method type][method name](){
+
+//method body start
+
+
+
+
+}//method body end.
+
+method return type: 
+non-return type which is void
+return type which is could be primitive or refernece type.
+
+[access specifer][primitive/reference type][method name](){
+
+//method body start
+
+//variable declare here to retun;
+  primitive/reference type
+
+return variable;
+
+}//method body end.
+
+non-return type:
+
+[access specifer][void][method name](){
+
+//method body start
+
+
+
+
+}//method body end.
+
+constructor:
+[access specifer][constructor name is same name as class name](){
+
+
+
+}
+
+Why main method is static?
+
+What is constructor?
+ the purpose of constructor is to initialize an object.
+
+A class can have multiple constructor.
+
+
+
+
+Java has automatic garbadge collector.
+
+
+
+
+
+
+
+
+
+
+

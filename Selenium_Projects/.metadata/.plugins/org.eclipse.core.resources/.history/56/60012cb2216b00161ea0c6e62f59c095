@@ -1,0 +1,36 @@
+package TestNG;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+
+public class NYTimes {
+  WebDriver driver = null;
+  
+  @BeforeMethod
+  public void beforeMethod() {
+	  
+	    System.setProperty("webdriver.gecko.driver", "A:\\New folder\\Selenium\\WebDrivers\\geckodriver.exe");
+		driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.navigate().to("http://www.nytimes.com/");
+		driver.manage().window().maximize();
+  }
+  
+  @Test
+  public void f() {
+	  System.out.println(driver.getCurrentUrl());
+	  System.out.println(driver.getTitle());
+  }
+  
+  @AfterMethod
+  public void afterMethod() {
+	  driver.quit();
+  }
+
+}

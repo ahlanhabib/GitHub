@@ -1,0 +1,76 @@
+07-24-16
+
+final in variable
+final in method
+
+final,TODO: finally and finalize
+
+super() can be used to invoke immediate super class's Constructor.
+super() can be used to invoke immediate super class's variable.
+super() can be used to invoke immediate super class's method.
+
+Exception Handling:
+Handle the run time error
+
+Intellij:
+https://www.jetbrains.com/idea/download/#section=windows
+
+Mentoring This Week:
+
+Jawad Newaj:Tuesday   @6pm - 9 pm.
+Kaya Begum: Wednesday @6pm - 9 pm.
+
+
+switch....case
+
+Loops:
+
+1)for loop
+2)while loop
+3) do...while loop
+4)for each loop  TODO
+
+1)for loop
+
+ for([initialize block]; [conditional block]; [incremental/decremental block])
+{ //BODY START
+
+
+
+} //Body End
+
+while(conditional block){
+//body start here
+
+increment statement
+
+}//while loop end
+
+do..while:
+
+do{
+
+}while(conditional block);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

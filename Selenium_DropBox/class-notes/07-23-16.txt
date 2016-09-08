@@ -1,0 +1,84 @@
+
+
+as static
+Dave 9
+Susan 9
+After dive way size changes 
+Dave 12
+
+
+as non-static
+Dave 9
+Susan 0
+After drive way size changes 
+Dave 9
+Susan 12
+
+
+Object Oriented Programming: OOP
+
+1) Abstraction
+2) Encapsulation
+3) Inheritance
+4) Polymorphism
+
+1) Abstraction:
+Implementation hidding
+
+Interface---->Abstract class------->Concrete class
+Car---------->Motorcar------------->MotorEngineCar
+
+What is the difference between Interface and Abstract class?
+
+
+2) Encapsulation
+   Data hidding
+
+3) Inheritance
+ Process of acquiring the properties of one class to another class.
+
+  GrandFather()--------> Father()------------->Children()
+
+
+4) Polymorphism
+
+The ability of an object to take on many forms.
+Two Kind of polymorphism:
+
+Method Overloading---> it happens in compile time
+Method Overriding----> it happens in run time.
+
+
+
+
+
+this operator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

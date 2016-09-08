@@ -1,0 +1,55 @@
+import java.sql.*;
+public class Driver {
+	
+			private static final String user = "rocee";
+			private static final String password = "root123";
+			private static final String url = "jdbc:mysql://localhost/world";
+			
+	public static void main(String[] args) throws SQLException {
+		Connection conn = null;
+			try {
+			conn= DriverManager.getConnection(url, user, password);
+				System.out.println("Connected");
+			} catch (SQLException e) {
+				System.err.println(e);
+			}finally {
+				if ( conn !=null){
+					conn.close();
+				}
+			}
+	}
+}	
+		
+		//Class.forName("com.mysql.jdbc.Driver");
+		
+		// 1. Get connection to database
+		// 1. Get connection to database
+			
+				
+		
+		
+		
+		
+		
+		//try {
+		
+			
+		
+		
+		
+		
+		
+			//Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "rocee" , "root123");
+			
+			
+			// 2. Create a Statement
+			
+			// 3. Execute SQL query
+			
+			// 4. Process the Result set
+			
+		//}catch{
+			
+		//}
+	
+

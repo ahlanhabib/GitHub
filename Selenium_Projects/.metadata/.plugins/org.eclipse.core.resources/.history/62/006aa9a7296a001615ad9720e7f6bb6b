@@ -1,0 +1,22 @@
+package Hello;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class HelloSelenuim {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "A:\\New folder\\Mentoring 26th_August\\geckodriver-v0.10.0-win64\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		//driver.manage().timeouts().implicitlyWait(15, TimeUnit.MICROSECONDS);
+		driver.navigate().to("http://amazon.com");
+		driver.manage().window().maximize();
+		driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Laptop", Keys.ENTER);
+		System.out.println(driver.getTitle());
+		
+	}
+}

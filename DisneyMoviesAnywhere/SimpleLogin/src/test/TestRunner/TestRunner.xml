@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Simple Login Test">
+
+    <parameter name="useSauceLab" value="false"/>
+    <parameter name="userName" value="sharif314"/>
+    <parameter name="key" value="2059df80-124c-439b-a71e-c46894740426"/>
+
+    <parameter name="appUrl" value="http://www.yahoo.com/"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserVersion" value="46.0"/>
+
+    <test name="Login Test">
+        <classes>
+            <class name="FacebookLogin"/>
+            <!--<class name="ChaseLogin"/>-->
+            <!--<class name="NyTimes"/>-->
+            <!--<class name="GoogleSearch"/>-->
+
+        </classes>
+
+    </test>
+
+
+
+</suite>
